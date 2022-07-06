@@ -28,7 +28,7 @@ jobs:
           with:
            fetch-depth: 0
 
-      - name: 设置运行环境（Node.js)
+      - name: 设置运行环境
         uses: actions/setup-node@v3
         with:
           node-version: 16
